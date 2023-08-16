@@ -65,3 +65,5 @@ Thanks to the NH Kurisu error repository for some extra info on some of these er
 Most of this is based on my own experience (a lot of which is seeing people in NH have some of these issues).
 
 If you have any improvements, feel free to open a PR or issue on the Github.
+
+Page created by DardelHMB. See the source [here](https://github.com/DardelHMB/wiiuerrorinfo)

@@ -20,7 +20,9 @@ Similar error to the previous error, error code 160-0103 indicates that your ext
 This can happen for a number of reasons. Most common cause is using a flash drive as external storage, which cause all sorts of funky issues.
 
 In any case, that drive is not likely to be recognised by the Wii U anymore.
+
 If it is a HDD: Extract games/saves via DumpsterU if nessasary (hopefully it can grab them), then format with the Wii U in data management.
+
 If it is a flash drive: **Stop using a flash drive. Grab saves/games from it with DumpsterU if you can, then get a HDD.**
 
 ## Error Code: 160-0101
@@ -32,6 +34,7 @@ What you need:
 - A Raspberry Pi Pico/Zero OR a hackable Nintendo Switch
 - A USB C-A cable if using a Switch
 - Patience (you'll see why)
+
 Note: I recommend a Pi Pico over the zero, that way, you can use it for [de_fuse](https://lazr1026.github.io/unbrick/#/) if needed later.
 
 If you're using a Pi Pico/Zero, follow the instructions on the [Github repo](https://github.com/GaryOderNichts/udpih#instructions), I will only provide instructions for the UDPIH Payload.

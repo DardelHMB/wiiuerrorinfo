@@ -37,11 +37,11 @@ What you need:
 
 Note: I recommend a Pi Pico over the zero, that way, you can use it for [de_fuse](https://lazr1026.github.io/unbrick/#/) if needed later.
 
-If you're using a Pi Pico/Zero, follow the instructions on the [Github repo](https://github.com/GaryOderNichts/udpih#instructions), I will only provide instructions for the UDPIH Payload.
+If you're using a Pi Pico/Zero, follow the instructions on the [Github repo](https://github.com/GaryOderNichts/udpih#instructions) for booting recovery_menu, I will only provide instructions for the UDPIH nxpayload.
 
 1. Download [updih_nxpayload](https://github.com/GaryOderNichts/udpih_nxpayload/releases/latest)
 2. Also download [recovery_menu](https://github.com/GaryOderNichts/recovery_menu/releases/latest) and place it on the root of your Wii U's SD card
-3. Either place it in `/bootloader/payloads` on your sd card or inject it with your favourite payload injector
+3. Either place it in `/bootloader/payloads` on your sd card and boot it with Hekate `Payloads --> udpih_nxpayload.bin`, or inject it with your favourite payload injector
 4. Connect your Switch to the Wii U with a USB C-A cable. Do not turn on the Wii U or activate the UPDPIH gadget yet.
 5. Power on your Wii U
 6. Wait for the Wii U logo to appear on your TV/Gamepad then activate the UDPIH gadget
@@ -49,7 +49,7 @@ Note: You need to do this **as soon as you see the Wii U logo.** Too early and y
 7. Once you're in the recovery_menu, open `Set Coldboot Title` and change it back to the Wii U menu.
 8. Navigate to `Shutdown`, and now your Wii U should be fixed!
 
-Extra: If you need to fix a bad theme, but forgot to use autoboot, use [my recovery_menu-mod](https://github.com/DardelHMB/recovery_menu-mod/releases/download/1.2/recovery_menu) to set the coldboot title to Health and Safety and restore your backup theme from the HBL. **Now you can stop installing themes. Use SDCafiine if you want to use themes.**
+Extra: If you need to fix a bad theme, but forgot to use autoboot, use [my recovery_menu-mod](https://github.com/DardelHMB/recovery_menu-mod/releases/download/1.2/recovery_menu) to set the coldboot title to Health and Safety and restore your backup theme from the HBL. **Now you can stop installing themes. Use SDCafiine if you want to use themes or this WILL happen again.**
 
 ## Blinking blue light
 
@@ -57,7 +57,7 @@ I'm sorry for your loss.
 
 A blinking blue light indicates **IOSU is not booting.**
 
-The cause is SLC corruption. Fixing it will require hardmod. I do not have a guide to replace the SLC or repair it.
+The cause is SLC corruption. Fixing it will require hardmod. I do not have a guide on how to replace the SLC or repair it.
 
 If you were happening to use isfshax (de_fuse too I think?), this is normal. No action is required.
 

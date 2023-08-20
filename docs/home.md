@@ -15,7 +15,7 @@ The only method to fix this is by soldering an sd card to replace the MLC chip. 
 
 ## Error Code: 160-0105
 
-Similar error to the previous error, error code 160-0103 indicates that your external USB is corrupt.
+Error code 160-0105 indicates that your external USB is corrupt.
 
 This can happen for a number of reasons. Most common cause is using a flash drive as external storage, which cause all sorts of funky issues.
 
@@ -59,7 +59,7 @@ A blinking blue light indicates **IOSU is not booting.**
 
 The cause is SLC corruption. Fixing it will require hardmod. I do not have a guide on how to replace the SLC or repair it.
 
-If you were happening to use isfshax (de_fuse too I think?), this is normal. No action is required.
+If you were happening to use isfshax (de_fuse too I think?), or otherwise see the minute menu, this is normal. No action is required.
 
 
 ## That's all for now

@@ -30,6 +30,8 @@ If it is a flash drive: **Stop using a flash drive. Grab saves/games from it wit
 This error code is usually caused when the Wii U cannot boot the Wii U menu. In other words, a **CBHC brick.**
 Lucky for you, this is extremely easy to fix now!
 
+Before starting the below guide please note this error is also quite generic, it can occur for a variety of reasons, however UDPIH is still useful to dump your logs to find out what's happening in this case.
+
 What you need:
 - A Raspberry Pi Pico/Zero OR a hackable Nintendo Switch
 - A USB C-A cable if using a Switch
@@ -42,7 +44,7 @@ If you're using a Pi Pico/Zero, follow the instructions on the [Github repo](htt
 1. Download [updih_nxpayload](https://github.com/GaryOderNichts/udpih_nxpayload/releases/latest)
 2. Also download [recovery_menu](https://github.com/GaryOderNichts/recovery_menu/releases/latest) and place it on the root of your Wii U's SD card
 3. Either place it in `/bootloader/payloads` on your sd card and boot it with Hekate `Payloads --> udpih_nxpayload.bin`, or inject it with your favourite payload injector
-4. Connect your Switch to the Wii U with a USB C-A cable. Do not turn on the Wii U or activate the UPDPIH gadget yet.
+4. Connect your Switch to the Wii U with a USB C-A cable. Do not turn on the Wii U or activate the UDPIH gadget yet.
 5. Power on your Wii U
 6. Wait for the Wii U logo to appear on your TV/Gamepad then activate the UDPIH gadget
 Note: You need to do this **as soon as you see the Wii U logo.** Too early and you won't get display out. Too late and your console will hang on the boot screen or boot normally. This will take a few tries (or you get lucky). If you fuck it up, power off your Wii U and try again.
